@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: geda gschem ru\n"
 "Report-Msgid-Bugs-To: geda-bug@seul.org\n"
-"POT-Creation-Date: 2012-07-22 14:41+0400\n"
+"POT-Creation-Date: 2012-07-28 19:27+0400\n"
 "PO-Revision-Date: 2012-07-22 00:00+0400\n"
 "Last-Translator: Sergey Alyoshin <alyoshin.s@gmail.com>\n"
 "Language-Team: gEDA developers\n"
@@ -709,19 +709,19 @@ msgstr "ВНИМАНИЕ! Включите привязку к сетке!\n"
 
 #: gschem/src/i_callbacks.c:3401
 msgid "Rubber band OFF \n"
-msgstr "Режим \"резиновых\" соединений отключен \n"
+msgstr "Режим «резиновых» соединений отключен \n"
 
 #: gschem/src/i_callbacks.c:3404
 msgid "Rubber band ON\n"
-msgstr "Режим \"резиновых\" соединений включен \n"
+msgstr "Режим «резиновых» соединений включен \n"
 
 #: gschem/src/i_callbacks.c:3419
 msgid "magnetic net mode: ON\n"
-msgstr "Режим \"магнитных\" соединений включен\n"
+msgstr "Режим «магнитных» соединений включен\n"
 
 #: gschem/src/i_callbacks.c:3422
 msgid "magnetic net mode: OFF\n"
-msgstr "Режим \"магнитных\" соединений отключен\n"
+msgstr "Режим «магнитных» соединений отключен\n"
 
 # Сообщение при недопустимом значении поля filltype
 #: gschem/src/o_box.c:292
@@ -874,6 +874,11 @@ msgstr ""
 #, c-format
 msgid "Unknown type for path (fill)!\n"
 msgstr "Неизвестный тип заполнения контура!\n"
+
+# Заголовок окна выбора файла изображения
+#: gschem/src/o_picture.c:133 gschem/src/o_picture.c:509
+msgid "Select a picture file..."
+msgstr "Выберите файл изображения"
 
 # Квадратные скобки добавлены для единообразия
 #: gschem/src/o_picture.c:166
@@ -1296,7 +1301,7 @@ msgid ""
 "move cursor into window, click to place text.\n"
 "Middle button to rotate while placing."
 msgstr ""
-"Введите текст, нажмите \"Применить\", \n"
+"Введите текст, нажмите «Применить», \n"
 "переместите курсор в окно и щёлкните левой кнопкой в месте вставки.\n"
 "Перед вставкой текст можно повернуть щелчком средней кнопки мыши."
 
@@ -1711,8 +1716,8 @@ msgid ""
 "The name cannot end with a space.\n"
 "The value cannot start with a space."
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Недопустимое определение атрибута \"%s"
-"\".\n"
+"<span weight=\"bold\" size=\"larger\">Недопустимое определение атрибута "
+"«%s».\n"
 "Исправьте его, прежде чем продолжить</span>\n"
 "\n"
 "Имя и значение обязательно должны быть заданы.\n"
